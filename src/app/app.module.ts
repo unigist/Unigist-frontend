@@ -8,13 +8,18 @@ import { BloggerComponent } from './components/blogger/blogger.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
+import { PostUpdateComponent } from './components/post-update/post-update.component';
+import { BlogPostViewComponent } from './components/blog-post-view/blog-post-view.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     BlogViewComponent,
     BloggerComponent,
     SigninComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PostUpdateComponent,
+    BlogPostViewComponent
   ],
   imports: [
     BrowserModule,
